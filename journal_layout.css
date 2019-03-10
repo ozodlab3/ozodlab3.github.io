@@ -1,3 +1,7 @@
+body {
+	background-image: url('images/background.jpeg');
+}
+
 .main {
 	border: 10px white solid;
 	background-color: white;
@@ -36,11 +40,22 @@
 	float: right;
 }
 
-body {
-	background-image: url('images/background.jpeg');
+.friends{
+	height: 500px;
+	overflow: hidden;
+	float: left;
 }
 
-
+.friends1{
+	border: 4px;
+	border-color:  #C2E9E9 ;
+	border-style: solid;
+	background-color: #A8FFF0;
+	float: left;
+	padding: 5px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
 
 #subheader {
 	text-align: right;
